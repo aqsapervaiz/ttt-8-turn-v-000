@@ -17,11 +17,11 @@ def input_to_index(user_input)
 end
 
 #checks number to see if position taken and if it is an actual number
-def valid_move? (board, index)
-  def position_taken? (array, ind)
+def valid_move?(board, index)
+  def position_taken?(array, ind)
     if array[ind] == " " || array[ind] == "" || array[ind] == nil
-    return false 
-  else
-    return true 
+      return false
+    else
+      return true
+    end
   end
-end
